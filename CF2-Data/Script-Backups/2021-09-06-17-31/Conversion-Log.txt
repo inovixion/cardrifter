@@ -1,0 +1,33 @@
+Converting script [1 / 3]	[\Extreme Drift\Scripts\GUI\MainMenu.cs]
+	Fragments : 5
+		[ 0] : Line:  693	InputMethod   GetMouseButton      	(0)
+		[ 1] : Line:  695	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:  709	InputProperty touchCount          
+		[ 3] : Line:  711	InputMethod   GetTouch            	(0)
+		[ 4] : Line:  714	InputMethod   GetTouch            	(0)
+
+Converting script [2 / 3]	[\Extreme Drift\Scripts\GUI\RunButton.cs]
+	Fragments : 1
+		[ 0] : Line:    9	InputMethod   GetKeyDown          	(keyPress)
+
+Converting script [3 / 3]	[\Extreme Drift\Scripts\Vehicle\VehicleControl.cs]
+	Fragments : 10
+		[ 0] : Line:  438	InputMethod   GetKeyDown          	(KeyCode.PageUp)
+		[ 1] : Line:  440	InputMethod   GetKeyDown          	(KeyCode.PageDown)
+		[ 2] : Line:  490	InputMethod   GetAxis             	("Horizontal")
+		[ 3] : Line:  491	InputMethod   GetAxis             	("Vertical")
+		[ 4] : Line:  492	InputMethod   GetButton           	("Jump")
+		[ 5] : Line:  493	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[ 6] : Line:  493	InputMethod   GetKey              	(KeyCode.RightShift)
+		[ 7] : Line:  498	InputMethod   GetKeyDown          	(KeyCode.PageUp)
+		[ 8] : Line:  502	InputMethod   GetKeyDown          	(KeyCode.PageDown)
+		[ 9] : Line:  550	InputMethod   GetAxis             	("Vertical")
+
+
+3 scripts modified!
+Overwriting actual scripts...
+	[0 / 3] from  [C:/Users/Daim/Desktop/New Unity Project/CF2-Data/Script-Backups/2021-09-06-17-31\Assets-After/\Extreme Drift\Scripts\GUI\MainMenu.cs] to [C:/Users/Daim/Desktop/New Unity Project/Assets/\Extreme Drift\Scripts\GUI\MainMenu.cs]
+	[1 / 3] from  [C:/Users/Daim/Desktop/New Unity Project/CF2-Data/Script-Backups/2021-09-06-17-31\Assets-After/\Extreme Drift\Scripts\GUI\RunButton.cs] to [C:/Users/Daim/Desktop/New Unity Project/Assets/\Extreme Drift\Scripts\GUI\RunButton.cs]
+	[2 / 3] from  [C:/Users/Daim/Desktop/New Unity Project/CF2-Data/Script-Backups/2021-09-06-17-31\Assets-After/\Extreme Drift\Scripts\Vehicle\VehicleControl.cs] to [C:/Users/Daim/Desktop/New Unity Project/Assets/\Extreme Drift\Scripts\Vehicle\VehicleControl.cs]
+
+Overwriting COMPLETED!

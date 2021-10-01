@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 8c91fb211c8ab864a9697d9fe2cc944f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Collider
+    100002: Object01
+    100004: Object02
+    100006: Object03
+    100008: Object04
+    100010: Object05
+    100012: Object06
+    100014: Object07
+    100016: Object08
+    100018: Object09
+    100020: Object10
+    100022: pPlane1
+    100024: Racetrack
+    100026: Rocks
+    100028: //RootNode
+    100030: Wall1
+    100032: Wall2
+    400000: Collider
+    400002: Object01
+    400004: Object02
+    400006: Object03
+    400008: Object04
+    400010: Object05
+    400012: Object06
+    400014: Object07
+    400016: Object08
+    400018: Object09
+    400020: Object10
+    400022: pPlane1
+    400024: Racetrack
+    400026: Rocks
+    400028: //RootNode
+    400030: Wall1
+    400032: Wall2
+    2100000: 01 - Default
+    2100002: material15
+    2100004: material5
+    2100006: lambert2
+    2100008: material11
+    2100010: material7
+    2100012: material2
+    2100014: material12
+    2100016: material6
+    2100018: material13
+    2100020: material1
+    2100022: material4
+    2100024: material3
+    2100026: material8
+    2100028: material9
+    2100030: material10
+    2100032: mat_0_TEX_4_jpg1
+    2300000: Collider
+    2300002: Object01
+    2300004: Object02
+    2300006: Object03
+    2300008: Object04
+    2300010: Object05
+    2300012: Object06
+    2300014: Object07
+    2300016: Object08
+    2300018: Object09
+    2300020: Object10
+    2300022: pPlane1
+    2300024: Racetrack
+    2300026: Rocks
+    2300028: Wall1
+    2300030: Wall2
+    3300000: Collider
+    3300002: Object01
+    3300004: Object02
+    3300006: Object03
+    3300008: Object04
+    3300010: Object05
+    3300012: Object06
+    3300014: Object07
+    3300016: Object08
+    3300018: Object09
+    3300020: Object10
+    3300022: pPlane1
+    3300024: Racetrack
+    3300026: Rocks
+    3300028: Wall1
+    3300030: Wall2
+    4300000: Collider
+    4300002: Object04
+    4300004: pPlane1
+    4300006: Wall2
+    4300008: Wall1
+    4300010: Object08
+    4300012: Object03
+    4300014: Object05
+    4300016: Object01
+    4300018: Object07
+    4300020: Object09
+    4300022: Racetrack
+    4300024: Object06
+    4300026: Rocks
+    4300028: Object10
+    4300030: Object02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

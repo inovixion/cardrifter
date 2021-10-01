@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: e94bb5b5d862f2b4ba6718b758b79488
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Door
+    100004: Door_mirror
+    100006: //RootNode
+    100008: Meter_needle
+    100010: Meter_needle1
+    100012: Mirrors
+    100014: Object_xkr_wheel_jpg2
+    100016: Object_xkr_wheel_jpg3
+    100018: Object_xkr_wheel_jpg4
+    100020: Object_xkr_wheel_jpg5
+    100022: Steering
+    400000: Body
+    400002: Door
+    400004: Door_mirror
+    400006: //RootNode
+    400008: Meter_needle
+    400010: Meter_needle1
+    400012: Mirrors
+    400014: Object_xkr_wheel_jpg2
+    400016: Object_xkr_wheel_jpg3
+    400018: Object_xkr_wheel_jpg4
+    400020: Object_xkr_wheel_jpg5
+    400022: Steering
+    2100000: lambert4
+    2100002: lambert5
+    2100004: lambert6
+    2100006: lambert7
+    2100008: lambert8
+    2300000: Body
+    2300002: Door
+    2300004: Door_mirror
+    2300006: Meter_needle
+    2300008: Meter_needle1
+    2300010: Mirrors
+    2300012: Object_xkr_wheel_jpg2
+    2300014: Object_xkr_wheel_jpg3
+    2300016: Object_xkr_wheel_jpg4
+    2300018: Object_xkr_wheel_jpg5
+    2300020: Steering
+    3300000: Body
+    3300002: Door
+    3300004: Door_mirror
+    3300006: Meter_needle
+    3300008: Meter_needle1
+    3300010: Mirrors
+    3300012: Object_xkr_wheel_jpg2
+    3300014: Object_xkr_wheel_jpg3
+    3300016: Object_xkr_wheel_jpg4
+    3300018: Object_xkr_wheel_jpg5
+    3300020: Steering
+    4300000: Body
+    4300002: Steering
+    4300004: Mirrors
+    4300006: Door
+    4300008: Door_mirror
+    4300010: Object_xkr_wheel_jpg2
+    4300012: Object_xkr_wheel_jpg3
+    4300014: Object_xkr_wheel_jpg4
+    4300016: Object_xkr_wheel_jpg5
+    4300018: Meter_needle
+    4300020: Meter_needle1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
