@@ -121,6 +121,17 @@ public class AIVehicle : MonoBehaviour
                     GameUI.manage.gameFailed = true;
                 }
             }
+            else if (y == 6)
+            {
+                if (currentLap == 1 && GameUI.manage.totalDriftCoins > PlayerPrefs.GetInt("track6"))
+                {
+                    GameUI.manage.gameFinished = true;
+                }
+                else if (currentLap == 1 && GameUI.manage.totalDriftCoins < PlayerPrefs.GetInt("track6"))
+                {
+                    GameUI.manage.gameFailed = true;
+                }
+            }
 
             if (playerBestTime == 0.0f || playerBestTime > playerCurrentTime) playerBestTime = playerCurrentTime;
 

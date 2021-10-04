@@ -34,6 +34,9 @@ public class TypeWriterEffect : MonoBehaviour
             case 5:
                 fullText = "Get " + PlayerPrefs.GetInt("track5") + " Drift Coins to complete this Mission.";
                 break;
+            case 6:
+                fullText = "Get " + PlayerPrefs.GetInt("track6") + " Drift Coins to complete this Mission.";
+                break;
             default:
                 break;
         }

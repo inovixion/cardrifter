@@ -307,6 +307,16 @@ public class MainMenu : MonoBehaviour
 
     public void BACK()
     {
+        //if(AdmobBannerAd.Instance)
+        //{
+        //    AdmobBannerAd.Instance.DESTROYBanner();
+        //}
+        StartCoroutine(WAITHERE());
+    }
+
+    IEnumerator WAITHERE()
+    {
+        yield return new WaitForSeconds(0.5F);
         SceneManager.LoadScene(0);
     }
     //GamePanels//////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -377,6 +387,10 @@ public class MainMenu : MonoBehaviour
                 menuPanels.SelectVehicle.SetActive(false);
                 menuPanels.SelectLevel.SetActive(false);
                 menuPanels.InAppPanel.SetActive(true);
+                if(AdmobBannerAd.Instance)
+                {
+                    AdmobBannerAd.Instance.DESTROYBanner();
+                }
                 break;
         }
     }
@@ -703,13 +717,14 @@ public class MainMenu : MonoBehaviour
         }
         
 
-        if (!PlayerPrefs.HasKey("track1") || !PlayerPrefs.HasKey("track2") || !PlayerPrefs.HasKey("track3") || !PlayerPrefs.HasKey("track4") || !PlayerPrefs.HasKey("track5"))
+        if (!PlayerPrefs.HasKey("track1") || !PlayerPrefs.HasKey("track2") || !PlayerPrefs.HasKey("track3") || !PlayerPrefs.HasKey("track4") || !PlayerPrefs.HasKey("track5") || !PlayerPrefs.HasKey("track6"))
         {
             PlayerPrefs.SetInt("track1", 50);
             PlayerPrefs.SetInt("track2", 50);
             PlayerPrefs.SetInt("track3", 50);
             PlayerPrefs.SetInt("track4", 50);
             PlayerPrefs.SetInt("track5", 50);
+            PlayerPrefs.SetInt("track6", 50);
         }
 
         if (PlayerPrefs.GetInt("QualitySettings") == 0)

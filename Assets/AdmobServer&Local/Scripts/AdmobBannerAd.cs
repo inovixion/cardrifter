@@ -42,4 +42,9 @@ public class AdmobBannerAd : MonoBehaviour {
     {
         admob.ShowBannerAd();
     }
+
+    public void DESTROYBanner()
+    {
+        admob.DestroyBannerAd();
+    }
 }

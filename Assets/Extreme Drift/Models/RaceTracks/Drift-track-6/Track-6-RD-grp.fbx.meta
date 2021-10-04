@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: ebc94158e02af5b47a3cb578ceb831ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Barrier10
+    100002: Barrier13
+    100004: Barrier14
+    100006: Barrier15
+    100008: Barrier16
+    100010: Barrier17
+    100012: Barrier18
+    100014: Barrier19
+    100016: Barrier9
+    100018: Buildings
+    100020: Colliders
+    100022: Garder_3
+    100024: La_river_RD
+    100026: pCube12
+    100028: pCube14
+    100030: Pillars
+    100032: Road
+    100034: ROad_Grp
+    100036: //RootNode
+    100038: Water
+    100040: FP_sprt
+    100042: Rd_sprt
+    400000: Barrier10
+    400002: Barrier13
+    400004: Barrier14
+    400006: Barrier15
+    400008: Barrier16
+    400010: Barrier17
+    400012: Barrier18
+    400014: Barrier19
+    400016: Barrier9
+    400018: Buildings
+    400020: Colliders
+    400022: Garder_3
+    400024: La_river_RD
+    400026: pCube12
+    400028: pCube14
+    400030: Pillars
+    400032: Road
+    400034: ROad_Grp
+    400036: //RootNode
+    400038: Water
+    400040: FP_sprt
+    400042: Rd_sprt
+    2100000: lambert4
+    2100002: lambert8
+    2100004: lambert9
+    2100006: lambert7
+    2100008: lambert11
+    2100010: lambert12
+    2100012: lambert13
+    2100014: lambert17
+    2100016: Kids_Env_Rd_Tex01
+    2300000: Barrier10
+    2300002: Barrier13
+    2300004: Barrier14
+    2300006: Barrier15
+    2300008: Barrier16
+    2300010: Barrier17
+    2300012: Barrier18
+    2300014: Barrier19
+    2300016: Barrier9
+    2300018: Buildings
+    2300020: Colliders
+    2300022: Garder_3
+    2300024: La_river_RD
+    2300026: pCube12
+    2300028: pCube14
+    2300030: Pillars
+    2300032: Road
+    2300034: Water
+    2300036: FP_sprt
+    2300038: Rd_sprt
+    3300000: Barrier10
+    3300002: Barrier13
+    3300004: Barrier14
+    3300006: Barrier15
+    3300008: Barrier16
+    3300010: Barrier17
+    3300012: Barrier18
+    3300014: Barrier19
+    3300016: Barrier9
+    3300018: Buildings
+    3300020: Colliders
+    3300022: Garder_3
+    3300024: La_river_RD
+    3300026: pCube12
+    3300028: pCube14
+    3300030: Pillars
+    3300032: Road
+    3300034: Water
+    3300036: FP_sprt
+    3300038: Rd_sprt
+    4300000: Water
+    4300002: pCube12
+    4300004: pCube14
+    4300006: Pillars
+    4300008: Garder_3
+    4300010: Buildings
+    4300012: Colliders
+    4300014: Barrier9
+    4300016: Barrier10
+    4300018: Barrier13
+    4300020: Barrier14
+    4300022: Barrier15
+    4300024: Barrier16
+    4300026: Barrier17
+    4300028: Barrier18
+    4300030: Barrier19
+    4300032: La_river_RD
+    4300034: Road
+    4300036: FP_sprt
+    4300038: Rd_sprt
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
