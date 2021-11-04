@@ -328,7 +328,7 @@ namespace CompleteProject
                 //  Garage.Instance.unlockAll();
                 //GarageManager.Instance.UnlockAllBikes();
                 //BikeTrail.GarageManager.UnlockAllBikes();
-                MainMenu.Instance.UnlockAllCars();
+                MainMenuMain.Instance.UnlockAllCars();
             }
             else if (String.Equals(args.purchasedProduct.definition.id, unlock_all_tracks, StringComparison.Ordinal))
             {
@@ -337,7 +337,7 @@ namespace CompleteProject
                 //  Garage.Instance.unlockAll();
                 // GarageManager.Instance.UnlockAllModes();
                 //BikeTrail.GarageManager.UnlockAllModes();
-                MainMenu.Instance.UnlockAllTracks();
+                MainMenuMain.Instance.UnlockAllTracks();
 
             }
             else if (String.Equals(args.purchasedProduct.definition.id, unlock_everything, StringComparison.Ordinal))
@@ -347,8 +347,8 @@ namespace CompleteProject
                 //  Garage.Instance.unlockAll();
                 // GarageManager.Instance.unlockEveryThing();
                 //BikeTrail.GarageManager.unlockEveryThing();
-                MainMenu.Instance.UnlockAllCars();
-                MainMenu.Instance.UnlockAllTracks();
+                MainMenuMain.Instance.UnlockAllCars();
+                MainMenuMain.Instance.UnlockAllTracks();
 
             }
             else if (String.Equals(args.purchasedProduct.definition.id, doubler_cash, StringComparison.Ordinal))

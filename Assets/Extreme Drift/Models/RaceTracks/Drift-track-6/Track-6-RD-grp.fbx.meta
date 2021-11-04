@@ -25,6 +25,7 @@ ModelImporter:
     100038: Water
     100040: FP_sprt
     100042: Rd_sprt
+    100044: La_river_RD1
     400000: Barrier10
     400002: Barrier13
     400004: Barrier14
@@ -47,6 +48,7 @@ ModelImporter:
     400038: Water
     400040: FP_sprt
     400042: Rd_sprt
+    400044: La_river_RD1
     2100000: lambert4
     2100002: lambert8
     2100004: lambert9
@@ -76,6 +78,7 @@ ModelImporter:
     2300034: Water
     2300036: FP_sprt
     2300038: Rd_sprt
+    2300040: La_river_RD1
     3300000: Barrier10
     3300002: Barrier13
     3300004: Barrier14
@@ -96,6 +99,7 @@ ModelImporter:
     3300034: Water
     3300036: FP_sprt
     3300038: Rd_sprt
+    3300040: La_river_RD1
     4300000: Water
     4300002: pCube12
     4300004: pCube14
@@ -116,6 +120,7 @@ ModelImporter:
     4300034: Road
     4300036: FP_sprt
     4300038: Rd_sprt
+    4300040: La_river_RD1
   externalObjects: {}
   materials:
     importMaterials: 1

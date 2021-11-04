@@ -6,17 +6,25 @@ public class HIDEBANNERSETTINGS : MonoBehaviour
 {
     void OnEnable()
     {
-        if(AdmobBannerAd.Instance)
+        //if(AdmobBannerAd.Instance)
+        //{
+        //    AdmobBannerAd.Instance.HideBanner();
+        //}
+        if (FacebookAdsDaim.Instance)
         {
-            AdmobBannerAd.Instance.HideBanner();
+            FacebookAdsDaim.Instance.DisposeBanner();
         }
     }
 
     void OnDisable()
     {
-        if (AdmobBannerAd.Instance)
+        //if (AdmobBannerAd.Instance)
+        //{
+        //    AdmobBannerAd.Instance.ShowBanner();
+        //}
+        if (FacebookAdsDaim.Instance)
         {
-            AdmobBannerAd.Instance.ShowBanner();
+            FacebookAdsDaim.Instance.LoadBanner();
         }
     }
 }
