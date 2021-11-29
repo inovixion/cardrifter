@@ -67,7 +67,7 @@ public class AIVehicleDaim : MonoBehaviour
 
             if (y == 1)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track1"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track1") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track1", PlayerPrefs.GetInt("track1") + 50);
@@ -76,10 +76,14 @@ public class AIVehicleDaim : MonoBehaviour
                 {
                     GameUIMain.manage.gameFailed = true;
                 }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
             }
             else if (y == 2)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track2"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track2") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track2", PlayerPrefs.GetInt("track2") + 50);
@@ -88,10 +92,14 @@ public class AIVehicleDaim : MonoBehaviour
                 {
                     GameUIMain.manage.gameFailed = true;
                 }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
             }
             else if (y == 3)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track3"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track3") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track3", PlayerPrefs.GetInt("track3") + 50);
@@ -100,10 +108,14 @@ public class AIVehicleDaim : MonoBehaviour
                 {
                     GameUIMain.manage.gameFailed = true;
                 }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
             }
             else if (y == 4)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track4"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track4") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track4", PlayerPrefs.GetInt("track4") + 50);
@@ -112,10 +124,14 @@ public class AIVehicleDaim : MonoBehaviour
                 {
                     GameUIMain.manage.gameFailed = true;
                 }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
             }
             else if (y == 5)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track5"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track5") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track5", PlayerPrefs.GetInt("track5") + 50);
@@ -124,15 +140,23 @@ public class AIVehicleDaim : MonoBehaviour
                 {
                     GameUIMain.manage.gameFailed = true;
                 }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
             }
             else if (y == 6)
             {
-                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track6"))
+                if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track6") && AITrigger.Instance.TriggerAI == false)
                 {
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track6", PlayerPrefs.GetInt("track6") + 50);
                 }
                 else if (currentLap == 1 && GameUIMain.manage.totalDriftCoins < PlayerPrefs.GetInt("track6"))
+                {
+                    GameUIMain.manage.gameFailed = true;
+                }
+                else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
                 {
                     GameUIMain.manage.gameFailed = true;
                 }

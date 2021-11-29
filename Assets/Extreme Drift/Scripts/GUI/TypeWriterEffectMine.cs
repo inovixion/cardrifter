@@ -20,22 +20,22 @@ public class TypeWriterEffectMine : MonoBehaviour
         switch(y)
         {
             case 1:
-                fullText = "Get "+ PlayerPrefs.GetInt("track1") + " Drift Coins to complete this Mission.";
+                fullText = "Get "+ PlayerPrefs.GetInt("track1") + " Drift Coins and First position to complete this Mission.";
                 break;
             case 2:
-                fullText = "Get " + PlayerPrefs.GetInt("track2") + " Drift Coins to complete this Mission.";
+                fullText = "Get " + PlayerPrefs.GetInt("track2") + " Drift Coins and First position to complete this Mission.";
                 break;
             case 3:
-                fullText = "Get " + PlayerPrefs.GetInt("track3") + " Drift Coins to complete this Mission.";
+                fullText = "Get " + PlayerPrefs.GetInt("track3") + " Drift Coins and First position to complete this Mission.";
                 break;
             case 4:
-                fullText = "Get " + PlayerPrefs.GetInt("track4") + " Drift Coins to complete this Mission.";
+                fullText = "Get " + PlayerPrefs.GetInt("track4") + " Drift Coins and First position to complete this Mission.";
                 break;
             case 5:
-                fullText = "Get " + PlayerPrefs.GetInt("track5") + " Drift Coins to complete this Mission.";
+                fullText = "Get " + PlayerPrefs.GetInt("track5") + " Drift Coins and First position to complete this Mission.";
                 break;
             case 6:
-                fullText = "Get " + PlayerPrefs.GetInt("track6") + " Drift Coins to complete this Mission.";
+                fullText = "Get " + PlayerPrefs.GetInt("track6") + " Drift Coins and First position to complete this Mission.";
                 break;
             default:
                 break;

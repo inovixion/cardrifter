@@ -25,23 +25,33 @@ public class FacebookAdsDaim : MonoBehaviour
 
     public void DisposeBanner()
     {
-        if (this.adView)
+        if(PlayerPrefs.GetInt("RemoveAD") == 0)
         {
-            this.adView.Dispose();
+            if (this.adView)
+            {
+                this.adView.Dispose();
+            }
         }
+        
     }
     public void DisposeInter()
     {
-        if (this.interstitialAd != null)
+        if (PlayerPrefs.GetInt("RemoveAD") == 0)
         {
-            this.interstitialAd.Dispose();
+            if (this.interstitialAd != null)
+            {
+                this.interstitialAd.Dispose();
+            }
         }
     }
 
     private void Start()
     {
-        LoadInterstitial();
-        LoadBanner();
+        if (PlayerPrefs.GetInt("RemoveAD") == 0)
+        {
+            LoadInterstitial();
+            LoadBanner();
+        }
     }
 
     private void Update()
@@ -57,7 +67,7 @@ public class FacebookAdsDaim : MonoBehaviour
         }
         else
         {
-            this.interstitialAd = new InterstitialAd("556535138746463_556535685413075");
+            this.interstitialAd = new InterstitialAd("556535138746463_562882624778381");
         }
         
         this.interstitialAd.Register(this.gameObject);
@@ -93,14 +103,17 @@ public class FacebookAdsDaim : MonoBehaviour
 
     public void ShowInterstitial()
     {
-        if (this.isLoaded)
+        if (PlayerPrefs.GetInt("RemoveAD") == 0)
         {
-            this.interstitialAd.Show();
-            this.isLoaded = false;
-        }
-        else
-        {
-            print("failed to Load Ad");
+            if (this.isLoaded)
+            {
+                this.interstitialAd.Show();
+                this.isLoaded = false;
+            }
+            else
+            {
+                print("failed to Load Ad");
+            }
         }
     }
 
@@ -116,7 +129,7 @@ public class FacebookAdsDaim : MonoBehaviour
         }
         else
         {
-            this.adView = new AdView("556535138746463_556535268746450", AdSize.BANNER_HEIGHT_50);
+            this.adView = new AdView("556535138746463_562883734778270", AdSize.BANNER_HEIGHT_50);
         }
         
         this.adView.Register(this.gameObject);

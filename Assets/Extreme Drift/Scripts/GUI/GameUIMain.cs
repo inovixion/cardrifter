@@ -136,6 +136,7 @@ public class GameUIMain : MonoBehaviour
         public AudioClip countDown, countStart;
         public GameObject[] QualityHover;
         public GameObject[] StartFinish;
+        public GameObject FinishTrigger;
     }
 
 
@@ -193,7 +194,7 @@ public class GameUIMain : MonoBehaviour
         {
             sounds.QualityHover[j].SetActive(false);
         }
-        sounds.QualityHover[PlayerPrefs.GetInt("QualitySettings") - 2].SetActive(true);
+        sounds.QualityHover[PlayerPrefs.GetInt("QualitySettings")].SetActive(true);
 
     }
 
@@ -227,6 +228,8 @@ public class GameUIMain : MonoBehaviour
         yield return new WaitForSeconds(10f);
         sounds.StartFinish[0].SetActive(false);
         sounds.StartFinish[1].SetActive(true);
+        yield return new WaitForSeconds(10f);
+        sounds.FinishTrigger.SetActive(true);
     }
 
     void Update()
