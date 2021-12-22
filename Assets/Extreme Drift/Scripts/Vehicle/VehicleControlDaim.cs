@@ -554,6 +554,8 @@ public class VehicleControlDaim : MonoBehaviour
                 if (AIControlDaim.manage.controlMode == ControlMode.Simple)
                 {
                     accel = Input.GetAxis("Vertical");
+                    steer = Input.GetAxis("Horizontal");
+                    shift = Input.GetKey(KeyCode.LeftShift) | Input.GetKey(KeyCode.RightShift);
                 }
                 else
                 {

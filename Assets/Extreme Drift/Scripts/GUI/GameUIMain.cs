@@ -190,12 +190,12 @@ public class GameUIMain : MonoBehaviour
         }
 
 
-        for (int j = 0; j < sounds.QualityHover.Length; j++)
+      /*  for (int j = 0; j < sounds.QualityHover.Length; j++)
         {
             sounds.QualityHover[j].SetActive(false);
         }
         sounds.QualityHover[PlayerPrefs.GetInt("QualitySettings")].SetActive(true);
-
+*/
     }
 
 
