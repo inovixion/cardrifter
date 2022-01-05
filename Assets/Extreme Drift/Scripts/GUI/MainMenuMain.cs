@@ -33,6 +33,7 @@ public class MainMenuMain : MonoBehaviour
     public MenuGUI menuGUI;
     public VehicleSetting[] vehicleSetting;
     public LevelSetting[] levelSetting;
+    public GameObject PlayBtn;
 
 
     [System.Serializable]
@@ -409,10 +410,12 @@ public class MainMenuMain : MonoBehaviour
             if (gameScore <= 0) { gameScore = 1; }
             PlayerPrefs.SetInt("GameScore", gameScore);
             vehicleSetting[currentVehicleNumber].Bought = true;
+            PlayBtn.gameObject.SetActive(true);
         }
         else
         {
             menuPanels.EnoughMoney.SetActive(true);
+            PlayBtn.gameObject.SetActive(false);
         }
     }
 
@@ -422,6 +425,12 @@ public class MainMenuMain : MonoBehaviour
         {
             PlayerPrefs.SetInt("BoughtVehicle" + i.ToString(), 1);
             vehicleSetting[i].Bought = true;
+            if (vehicleSetting[currentVehicleNumber].Bought == true)
+            {
+                PlayBtn.gameObject.SetActive(true);
+            }
+            else
+            { PlayBtn.gameObject.SetActive(false); }
         }
         
     }
@@ -437,6 +446,12 @@ public class MainMenuMain : MonoBehaviour
 
         foreach (VehicleSetting VSetting in vehicleSetting)
         {
+            if (vehicleSetting[currentVehicleNumber].Bought == true)
+            {
+                PlayBtn.gameObject.SetActive(true);
+            }
+            else
+            { PlayBtn.gameObject.SetActive(false); }
 
             if (VSetting == vehicleSetting[currentVehicleNumber])
             {
@@ -461,6 +476,12 @@ public class MainMenuMain : MonoBehaviour
 
         foreach (VehicleSetting VSetting in vehicleSetting)
         {
+            if (vehicleSetting[currentVehicleNumber].Bought == true)
+            {
+                PlayBtn.gameObject.SetActive(true);
+            }
+            else
+            { PlayBtn.gameObject.SetActive(false); }
             if (VSetting == vehicleSetting[currentVehicleNumber])
             {
                 VSetting.vehicle.SetActive(true);
