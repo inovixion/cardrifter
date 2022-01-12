@@ -10,10 +10,11 @@ public class HIDEBANNERSETTINGS : MonoBehaviour
         //{
         //    AdmobBannerAd.Instance.HideBanner();
         //}
-        if (FacebookAdsDaim.Instance)
-        {
-            FacebookAdsDaim.Instance.DisposeBanner();
-        }
+        /* if (FacebookAdsDaim.Instance)
+         {
+             FacebookAdsDaim.Instance.DisposeBanner();
+         }*/
+        admob.instance.HideBanner();
     }
 
     void OnDisable()
@@ -22,9 +23,10 @@ public class HIDEBANNERSETTINGS : MonoBehaviour
         //{
         //    AdmobBannerAd.Instance.ShowBanner();
         //}
-        if (FacebookAdsDaim.Instance)
-        {
-            FacebookAdsDaim.Instance.LoadBanner();
-        }
+        /* if (FacebookAdsDaim.Instance)
+         {
+             FacebookAdsDaim.Instance.LoadBanner();
+         }*/
+        admob.instance.RequestBanner();
     }
 }

@@ -318,7 +318,7 @@ public class MainMenuMain : MonoBehaviour
     IEnumerator WAITHERE()
     {
         yield return new WaitForSeconds(0.5F);
-        FacebookAdsDaim.Instance.DisposeInter();
+        //FacebookAdsDaim.Instance.DisposeInter();
         SceneManager.LoadScene(0);
     }
     //GamePanels//////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -582,7 +582,7 @@ public class MainMenuMain : MonoBehaviour
 
         yield return new WaitForSeconds(0.4f);
 
-        FacebookAdsDaim.Instance.DisposeBanner();
+        //FacebookAdsDaim.Instance.DisposeBanner();
         sceneLoadingOperation = Application.LoadLevelAsync(currentLevelNumber + 1);
         sceneLoadingOperation.allowSceneActivation = false;
 
@@ -1044,10 +1044,11 @@ public class MainMenuMain : MonoBehaviour
         //{
         //    AdmobInterstitialAd.Instance.showinter();
         //}
-        if (FacebookAdsDaim.Instance)
-        {
-            FacebookAdsDaim.Instance.ShowInterstitial();
-        }
+        admob.instance.ShowAdmobInterstitial();
+        /* if (FacebookAdsDaim.Instance)
+         {
+             FacebookAdsDaim.Instance.ShowInterstitial();
+         }*/
     }
 
 

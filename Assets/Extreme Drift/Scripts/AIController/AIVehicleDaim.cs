@@ -64,23 +64,19 @@ public class AIVehicleDaim : MonoBehaviour
         {
             currentLap++;
             playerLastTime = playerCurrentTime;
-            print(y + " : return y");
             if (y == 1)
             {
                 if (currentLap == 1 && GameUIMain.manage.totalDriftCoins > PlayerPrefs.GetInt("track1") && AITrigger.Instance.TriggerAI == false)
                 {
-                    print("it is here0 finished");
                     GameUIMain.manage.gameFinished = true;
                     PlayerPrefs.SetInt("track1", PlayerPrefs.GetInt("track1") + 50);
                 }
                 else if (currentLap == 1 && GameUIMain.manage.totalDriftCoins < PlayerPrefs.GetInt("track1"))
                 {
-                    print("it is here1 failed");
                     GameUIMain.manage.gameFailed = true;
                 }
                 else if (currentLap == 1 && AITrigger.Instance.TriggerAI == true)
                 {
-                    print("it is here2 failed");
                     GameUIMain.manage.gameFailed = true;
                 }
             }

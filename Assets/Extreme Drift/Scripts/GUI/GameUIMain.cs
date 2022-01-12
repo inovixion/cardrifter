@@ -616,10 +616,11 @@ public class GameUIMain : MonoBehaviour
         //{
         //    AdmobInterstitialAd.Instance.showinter();
         //}
-        if(FacebookAdsDaim.Instance)
+        admob.instance.ShowAdmobInterstitial();
+       /* if(FacebookAdsDaim.Instance)
         {
             FacebookAdsDaim.Instance.ShowInterstitial();
-        }
+        }*/
         Time.timeScale = 1.0f;
         panels.gameStart.FadeBackGround.SetBool("FadeOut", true);
         StartCoroutine(LoadLevelGame(1.5f));
@@ -635,10 +636,11 @@ public class GameUIMain : MonoBehaviour
         //{
         //    AdmobInterstitialAd.Instance.showinter();
         //}
-        if (FacebookAdsDaim.Instance)
-        {
-            FacebookAdsDaim.Instance.ShowInterstitial();
-        }
+        admob.instance.ShowAdmobInterstitial();
+        /* if (FacebookAdsDaim.Instance)
+         {
+             FacebookAdsDaim.Instance.ShowInterstitial();
+         }*/
         Time.timeScale = 1.0f;
         panels.gameStart.FadeBackGround.SetBool("FadeOut", true);
         currentLevelNumber = 0;
@@ -658,7 +660,7 @@ public class GameUIMain : MonoBehaviour
     {
 
         yield return new WaitForSeconds(0.4f);
-        FacebookAdsDaim.Instance.DisposeBanner();
+        //FacebookAdsDaim.Instance.DisposeBanner();
         sceneLoadingOperation = Application.LoadLevelAsync(currentLevelNumber);
         sceneLoadingOperation.allowSceneActivation = false;
 
@@ -827,10 +829,11 @@ public class GameUIMain : MonoBehaviour
         //{
         //    AdmobInterstitialAd.Instance.showinter();
         //}
-        if (FacebookAdsDaim.Instance)
-        {
-            FacebookAdsDaim.Instance.ShowInterstitial();
-        }
+        admob.instance.ShowAdmobInterstitial();
+        /* if (FacebookAdsDaim.Instance)
+         {
+             FacebookAdsDaim.Instance.ShowInterstitial();
+         }*/
     }
 
     public void HideBannerAd()
@@ -839,10 +842,10 @@ public class GameUIMain : MonoBehaviour
         //{
         //    AdmobBannerAd.Instance.HideBanner();
         //}
-        if (FacebookAdsDaim.Instance)
+       /* if (FacebookAdsDaim.Instance)
         {
             FacebookAdsDaim.Instance.DisposeBanner();
-        }
+        }*/
     }
 
 }
